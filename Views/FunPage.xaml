@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Notes.Views.FunPage"
+             Title="Fun">
+    <ContentPage.Content>
+        <StackLayout>
+            <Image Source="puppy.jpg" />
+            <Label Text="Click below for more cute animal images!"
+                   HorizontalOptions="CenterAndExpand"
+                   FontAttributes="Bold"
+                   FontSize="Subtitle" />
+            <Button Text="Puppy Images"
+                    FontAttributes="Bold"
+                    FontSize="Large"
+                    Clicked="OnPuppyButtonClicked" />
+            <Button Text="Kitten Images"
+                    FontAttributes="Bold"
+                    FontSize="Large"
+                    Clicked="OnKittenButtonClicked" />
+            <Button Text="Axolotl Images"
+                    FontAttributes="Bold"
+                    FontSize="Large"
+                    Clicked="OnAxoButtonClicked" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
