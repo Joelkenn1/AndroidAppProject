@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Notes.Views.AboutMePage">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <Label Text="Hello, my name is Landon!"
+                       HorizontalOptions="CenterAndExpand"
+                       FontSize="Title"
+                       FontAttributes="Bold" />
+                <Label Text="I am going to Mercer for Computer Engineering. After, I will acquire my Master's in Software Engineering."
+                       HorizontalOptions="Center" />
+                <Image Source="mercer.png" />
+                <Label Text="I enjoy music. My preferred genres include but are not limited to: Classical, Jazz, and Classic Rock."
+                       HorizontalOptions="Center" />
+                <Image Source="music_note.png" />
+                <Image Source="piano.jpg" />
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>
